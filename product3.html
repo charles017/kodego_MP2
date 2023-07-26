@@ -1,0 +1,1155 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="icon" href="image/silakbologo.png" type="image/x-icon" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/8a364c3095.js"
+      crossorigin="anonymous"
+    ></script>
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Arsenal&family=Poiret+One&family=Rajdhani:wght@300&display=swap");
+    </style>
+    <title>Silakbo | Products</title>
+    <style>
+      .carousel-inner {
+        padding: 18px;
+        border-radius: 25px;
+      }
+      .carousel-caption {
+        position: static;
+        color: black;
+      }
+      .carousel-caption h3 {
+        margin-bottom: 15px;
+        margin-top: 15px;
+        color: black;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container text-center">
+      <img src="image/Logo.png" class="w-25 m-3" />
+    </div>
+    <div class="header">
+      <div class="container-{breakpoint} bg-black">
+        <nav class="navbar navbar-expand-lg">
+          <div class="container-fluid">
+            <a
+              href="index.html#sectionhome"
+              class="navbar-brand text-white p-0"
+            >
+              Silakbo</a
+            >
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#btn"
+              aria-controls="btn"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+              style="border: 0"
+            >
+              <i class="fa fa-navicon text-white"></i>
+            </button>
+            <div class="collapse navbar-collapse navigation" id="btn">
+              <ul
+                class="navbar-nav mx-auto text-white navigation d-flex text-center"
+                style="list-style: none"
+              >
+                <li class="nav-item">
+                  <a
+                    href="index.html#sectionhome"
+                    class="nav-link active text-white"
+                    aria-current="page"
+                    >Home</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a href="product.html" class="nav-link text-white">Product</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a
+                    class="nav-link text-white"
+                    nav-link
+                    dropdown-toggle
+                    role="button"
+                    data-bs-toggle="dropdown"
+                    >Where to buy</a
+                  >
+                  <ul class="dropdown-menu">
+                    <li>
+                      <a href="onsite.html" class="dropdown-item">Onsite</a>
+                    </li>
+                    <li><hr class="dropdown-divider" /></li>
+                    <li>
+                      <a href="online.html" class="dropdown-item">Online</a>
+                    </li>
+                  </ul>
+                </li>
+                <li class="nav-item">
+                  <a href="contact.html" class="nav-link text-white"
+                    >Contact Us</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a href="about.html" class="nav-link text-white">About Us</a>
+                </li>
+              </ul>
+              <div class="icons d-flex justify-content-center">
+                <li style="list-style-type: none" class="p-2">
+                  <a href="login.html"
+                    ><i
+                      class="fa-solid fa-right-to-bracket"
+                      style="color: #ffffff"
+                    ></i
+                  ></a>
+                </li>
+                <li style="list-style-type: none" class="p-2">
+                  <a href="signup.html"
+                    ><i class="fa-solid fa-user-plus" style="color: #ffffff"></i
+                  ></a>
+                </li>
+                <li style="list-style-type: none" class="p-2">
+                  <span data-bs-toggle="modal" data-bs-target="#cart"
+                    ><i class="fa-solid fa-cart-plus" style="color: #ffffff"></i
+                  ></span>
+                </li>
+              </div>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </div>
+
+    <br /><br /><br />
+    <div class="container align-middle">
+      <div class="container d-flex">
+        <a href="index.html#sectionhome"
+          ><i class="fas fa-arrow-left fs-5 text-black p-2"></i
+        ></a>
+        <div class="container d-flex justify-content-end">
+          <h5 class="m-2"><b>ITEMS IN CART:</b> <span class="items"></span></h5>
+          
+        </div>
+      </div>
+    </div>
+    <br /><br />
+    <div class="container bg-light p-3 shadow-lg text-center">
+      <h1 class="text-center">OUR PRODUCTS</h1>
+      <br />
+      <div class="conatiner text-center">
+        <div class="row row-cols-2 row-cols-md-4 row-cols-sm-2 g-4">
+          <!-- sil1 -->
+          <div class="ProductCard col">
+            <div class="container h-100">
+              <img src="./shirts/T9.png" class="Productimg" />
+              <br />
+              <br />
+              <a href="#" class="text-black">
+                <h5 class="-title" style="font-weight: 700">Never Quit</h5>
+                <h6 class="subtitle">"Small"</h6>
+                <p class="text-danger">PHP 699.95</p>
+                <div class="star">
+                  <i class="fa fa-star checked"></i>
+                  <i class="fa fa-star checked"></i>
+                  <i class="fa fa-star checked"></i>
+                  <i class="fa fa-star checked"></i>
+                  <i class="fa fa-star-half-o"></i>
+                </div>
+                <br />
+                <div class="button text-center">
+                  <button type="button" class="btn bg-black p-2">
+                    <a
+                      href="#"
+                      class="productItem text-white"
+                      data-name="T9"
+                      data-s="S"
+                      data-price="69995"
+                      data-id="1"
+                      style="font-size: 15px"
+                    >
+                      ADD TO CART</a
+                    >
+                  </button>
+                  <br /><br />
+                </div>
+              </a>
+            </div>
+          </div>
+          <!-- sil2 -->
+          <div class="ProductCard col">
+            <div class="container h-100">
+              <img src="./shirts/T9.png" class="Productimg" />
+              <br /><br />
+              <a href="#" class="text-black">
+                <h5 class="-title" style="font-weight: 700">Never Quit</h5>
+                <h6 class="subtitle">"Medium"</h6>
+                <p class="text-danger">PHP 699.95</p>
+                <div class="star">
+                  <i class="fa fa-star checked"></i>
+                  <i class="fa fa-star checked"></i>
+                  <i class="fa fa-star checked"></i>
+                  <i class="fa fa-star checked"></i>
+                  <i class="fa fa-star-half-o"></i>
+                </div>
+                <br />
+                <div class="button text-center">
+                  <button type="button" class="btn bg-black p-2">
+                    <a
+                      href="#"
+                      class="productItem text-white"
+                      data-name="T9"
+                      data-s="M"
+                      data-price="69995"
+                      data-id="2"
+                      style="font-size: 15px"
+                    >
+                      ADD TO CART</a
+                    ></button
+                  ><br /><br />
+                </div>
+              </a>
+            </div>
+          </div>
+          <!-- sil3 -->
+          <div class="ProductCard col">
+            <div class="container h-100">
+              <img src="./shirts/T9.png" class="Productimg" />
+              <br /><br />
+              <a href="#" class="text-black">
+                <h5 class="-title" style="font-weight: 700">Never Quit</h5>
+                <h6 class="subtitle">"Large"</h6>
+                <p class="text-danger">PHP 699.95</p>
+                <div class="star">
+                  <i class="fa fa-star checked"></i>
+                  <i class="fa fa-star checked"></i>
+                  <i class="fa fa-star checked"></i>
+                  <i class="fa fa-star checked"></i>
+                  <i class="fa fa-star-half-o"></i>
+                </div>
+                <br />
+                <div class="button text-center">
+                  <button type="button" class="btn bg-black">
+                    <a
+                      href="#"
+                      class="productItem text-white"
+                      data-name="T9"
+                      data-s="L"
+                      data-price="69995"
+                      data-id="3"
+                      style="font-size: 15px"
+                    >
+                      ADD TO CART</a
+                    >
+                  </button>
+                  <br /><br />
+                </div>
+              </a>
+            </div>
+          </div>
+          <!-- sil4 -->
+          <div class="ProductCard col">
+            <div class="container h-100">
+              <img src="./shirts/T9.png" class="Productimg" />
+              <br /><br />
+              <a href="#" class="text-black">
+                <h5 class="-title" style="font-weight: 700">Never Quit</h5>
+                <h6 class="subtitle">"Extra Large"</h6>
+                <p class="text-danger">PHP 699.95</p>
+                <div class="star">
+                  <i class="fa fa-star checked"></i>
+                  <i class="fa fa-star checked"></i>
+                  <i class="fa fa-star checked"></i>
+                  <i class="fa fa-star checked"></i>
+                  <i class="fa fa-star-half-o"></i>
+                </div>
+                <br />
+                <div class="button text-center">
+                  <button type="button" class="btn bg-black">
+                    <a
+                      href="#"
+                      class="productItem text-white"
+                      data-name="T9"
+                      data-s="XL"
+                      data-price="69995"
+                      data-id="4"
+                      style="font-size: 15px"
+                    >
+                      ADD TO CART</a
+                    >
+                  </button>
+                  <br /><br />
+                </div>
+              </a>
+            </div>
+          </div>
+          <!-- sil5 -->
+          <div class="ProductCard col">
+            <div class="container h-100">
+              <img src="./shirts/T10.png" class="Productimg" />
+              <br /><br />
+              <a href="#" class="text-black">
+                <h5 class="-title" style="font-weight: 700">Struggle...Quit</h5>
+                <h6 class="subtitle">"Small"</h6>
+                <p class="text-danger">PHP 699.95</p>
+                <div class="star">
+                  <i class="fa fa-star checked"></i>
+                  <i class="fa fa-star checked"></i>
+                  <i class="fa fa-star checked"></i>
+                  <i class="fa fa-star checked"></i>
+                  <i class="fa fa-star-half-o"></i>
+                </div>
+                <br />
+                <div class="button text-center">
+                  <button type="button" class="btn bg-black">
+                    <a
+                      href="#"
+                      class="productItem text-white"
+                      data-name="T10"
+                      data-s="S"
+                      data-price="69995"
+                      data-id="5"
+                      style="font-size: 15px"
+                    >
+                      ADD TO CART</a
+                    >
+                  </button>
+                  <br /><br />
+                </div>
+              </a>
+            </div>
+          </div>
+          <!-- sil6 -->
+          <div class="ProductCard col">
+            <div class="container h-100">
+              <img src="./shirts/T10.png" class="Productimg" />
+              <br /><br />
+              <a href="#" class="text-black">
+                <h5 class="-title" style="font-weight: 700">Struggle...Quit</h5>
+                <h6 class="subtitle">"Medium"</h6>
+                <p class="text-danger">PHP 699.95</p>
+                <div class="star">
+                  <i class="fa fa-star checked"></i>
+                  <i class="fa fa-star checked"></i>
+                  <i class="fa fa-star checked"></i>
+                  <i class="fa fa-star checked"></i>
+                  <i class="fa fa-star-half-o"></i>
+                </div>
+                <br />
+                <div class="button text-center">
+                  <button type="button" class="btn bg-black">
+                    <a
+                      href="#"
+                      class="productItem text-white"
+                      data-name="T10"
+                      data-s="M"
+                      data-price="69995"
+                      data-id="6"
+                      style="font-size: 15px"
+                    >
+                      ADD TO CART</a
+                    >
+                  </button>
+                  <br /><br />
+                </div>
+              </a>
+            </div>
+          </div>
+          <!-- sil7 -->
+          <div class="ProductCard col">
+            <div class="container h-100">
+              <img src="./shirts/T10.png" class="Productimg" />
+              <br /><br />
+              <a href="#" class="text-black">
+                <h5 class="-title" style="font-weight: 700">Struggle...Quit</h5>
+                <h6 class="subtitle">"Large"</h6>
+                <p class="text-danger">PHP 699.95</p>
+                <div class="star">
+                  <i class="fa fa-star checked"></i>
+                  <i class="fa fa-star checked"></i>
+                  <i class="fa fa-star checked"></i>
+                  <i class="fa fa-star checked"></i>
+                  <i class="fa fa-star-half-o"></i>
+                </div>
+                <br />
+                <div class="button text-center">
+                  <button type="button" class="btn bg-black">
+                    <a
+                      href="#"
+                      class="productItem text-white"
+                      data-name="T10"
+                      data-s="L"
+                      data-price="69995"
+                      data-id="7"
+                      style="font-size: 15px"
+                    >
+                      ADD TO CART</a
+                    >
+                  </button>
+                  <br /><br />
+                </div>
+              </a>
+            </div>
+          </div>
+          <!-- sil8-->
+          <div class="ProductCard col">
+            <div class="container h-100">
+              <img src="./shirts/T10.png" class="Productimg" />
+              <br /><br />
+              <a href="#" class="text-black">
+                <h5 class="-title" style="font-weight: 700">Struggle...Quit</h5>
+                <h6 class="subtitle">"Extra Large"</h6>
+                <p class="text-danger">PHP 699.95</p>
+                <div class="star">
+                  <i class="fa fa-star checked"></i>
+                  <i class="fa fa-star checked"></i>
+                  <i class="fa fa-star checked"></i>
+                  <i class="fa fa-star checked"></i>
+                  <i class="fa fa-star-half-o"></i>
+                </div>
+                <br />
+                <div class="button text-center">
+                  <button type="button" class="btn bg-black">
+                    <a
+                      href="#"
+                      class="productItem text-white"
+                      data-name="T10"
+                      data-s="XL"
+                      data-price="69995"
+                      data-id="8"
+                      style="font-size: 15px"
+                    >
+                      ADD TO CART</a
+                    >
+                  </button>
+                  <br /><br />
+                </div>
+              </a>
+            </div>
+          </div>
+          <!-- sil9 -->
+          <div class="ProductCard col">
+            <div class="container h-100">
+              <img src="./shirts/T11.png" class="Productimg" />
+              <br /><br />
+              <a href="#" class="text-black">
+                <h5 class="-title" style="font-weight: 700">Never Give Up</h5>
+                <h6 class="subtitle">"Small"</h6>
+                <p class="text-danger">PHP 799.95</p>
+                <div class="star">
+                  <i class="fa fa-star checked"></i>
+                  <i class="fa fa-star checked"></i>
+                  <i class="fa fa-star checked"></i>
+                  <i class="fa fa-star checked"></i>
+                  <i class="fa fa-star-half-o"></i>
+                </div>
+                <br />
+                <div class="button text-center">
+                  <button type="button" class="btn bg-black">
+                    <a
+                      href="#"
+                      class="productItem text-white"
+                      data-name="T11"
+                      data-s="S"
+                      data-price="79995"
+                      data-id="9"
+                      style="font-size: 15px"
+                    >
+                      ADD TO CART</a
+                    >
+                  </button>
+                  <br /><br />
+                </div>
+              </a>
+            </div>
+          </div>
+          <!-- sil10 -->
+          <div class="ProductCard col">
+            <div class="container h-100">
+              <img src="./shirts/T11.png" class="Productimg" />
+              <br /><br />
+              <a href="#" class="text-black">
+                <h5 class="-title" style="font-weight: 700">Never Give Up</h5>
+                <h6 class="subtitle">"Medium"</h6>
+                <p class="text-danger">PHP 799.95</p>
+                <div class="star">
+                  <i class="fa fa-star checked"></i>
+                  <i class="fa fa-star checked"></i>
+                  <i class="fa fa-star checked"></i>
+                  <i class="fa fa-star checked"></i>
+                  <i class="fa fa-star-half-o"></i>
+                </div>
+                <br />
+                <div class="button text-center">
+                  <button type="button" class="btn bg-black">
+                    <a
+                      href="#"
+                      class="productItem text-white"
+                      data-name="T11"
+                      data-s="M"
+                      data-price="79995"
+                      data-id="10"
+                      style="font-size: 15px"
+                    >
+                      ADD TO CART</a
+                    >
+                  </button>
+                  <br /><br />
+                </div>
+              </a>
+            </div>
+          </div>
+          <!-- sil11 -->
+          <div class="ProductCard col">
+            <div class="container h-100">
+              <img src="./shirts/T11.png" class="Productimg" />
+              <br /><br />
+              <a href="#" class="text-black">
+                <h5 class="-title" style="font-weight: 700">Never Give Up</h5>
+                <h6 class="subtitle">"Large"</h6>
+                <p class="text-danger">PHP 799.95</p>
+                <div class="star">
+                  <i class="fa fa-star checked"></i>
+                  <i class="fa fa-star checked"></i>
+                  <i class="fa fa-star checked"></i>
+                  <i class="fa fa-star checked"></i>
+                  <i class="fa fa-star-half-o"></i>
+                </div>
+                <br />
+                <div class="button text-center">
+                  <button type="button" class="btn bg-black">
+                    <a
+                      href="#"
+                      class="productItem text-white"
+                      data-name="T11"
+                      data-s="L"
+                      data-price="79995"
+                      data-id="11"
+                      style="font-size: 15px"
+                    >
+                      ADD TO CART</a
+                    >
+                  </button>
+                  <br /><br />
+                </div>
+              </a>
+            </div>
+          </div>
+          <!-- sil12 -->
+          <div class="ProductCard col">
+            <div class="container h-100">
+              <img src="./shirts/T11.png" class="Productimg" />
+              <br /><br />
+              <a href="#" class="text-black">
+                <h5 class="-title" style="font-weight: 700">Never Give Up</h5>
+                <h6 class="subtitle">"Extra Large"</h6>
+                <p class="text-danger">PHP 799.95</p>
+                <div class="star">
+                  <i class="fa fa-star checked"></i>
+                  <i class="fa fa-star checked"></i>
+                  <i class="fa fa-star checked"></i>
+                  <i class="fa fa-star checked"></i>
+                  <i class="fa fa-star-half-o"></i>
+                </div>
+                <br />
+                <div class="button text-center">
+                  <button type="button" class="btn bg-black">
+                    <a
+                      href="#"
+                      class="productItem text-white"
+                      data-name="T11"
+                      data-s="XL"
+                      data-price="79995"
+                      data-id="12"
+                      style="font-size: 15px"
+                    >
+                      ADD TO CART</a
+                    >
+                  </button>
+                  <br /><br />
+                </div>
+              </a>
+            </div>
+          </div>
+          <!-- sil13 -->
+          <div class="ProductCard col">
+            <div class="container h-100">
+              <img src="./shirts/T12.png" class="Productimg" />
+              <br /><br />
+              <a href="#" class="text-black">
+                <h5 class="-title" style="font-weight: 700">
+                  Believe there is Good in the World
+                </h5>
+                <h6 class="subtitle">"Small"</h6>
+                <p class="text-danger">PHP 699.95</p>
+                <div class="star">
+                  <i class="fa fa-star checked"></i>
+                  <i class="fa fa-star checked"></i>
+                  <i class="fa fa-star checked"></i>
+                  <i class="fa fa-star checked"></i>
+                  <i class="fa fa-star-half-o"></i>
+                </div>
+                <br />
+                <div class="button text-center">
+                  <button type="button" class="btn bg-black">
+                    <a
+                      href="#"
+                      class="productItem text-white"
+                      data-name="T12"
+                      data-s="S"
+                      data-price="69995"
+                      data-id="13"
+                      style="font-size: 15px"
+                    >
+                      ADD TO CART</a
+                    >
+                  </button>
+                  <br /><br />
+                </div>
+              </a>
+            </div>
+          </div>
+          <!-- sil14 -->
+          <div class="ProductCard col">
+            <div class="container h-100">
+              <img src="./shirts/T12.png" class="Productimg" />
+              <br /><br />
+              <a href="#" class="text-black">
+                <h5 class="-title" style="font-weight: 700">
+                  Believe there is Good in the World
+                </h5>
+                <h6 class="subtitle">"Medium"</h6>
+                <p class="text-danger">PHP 699.95</p>
+                <div class="star">
+                  <i class="fa fa-star checked"></i>
+                  <i class="fa fa-star checked"></i>
+                  <i class="fa fa-star checked"></i>
+                  <i class="fa fa-star checked"></i>
+                  <i class="fa fa-star-half-o"></i>
+                </div>
+                <br />
+                <div class="button text-center">
+                  <button type="button" class="btn bg-black">
+                    <a
+                      href="#"
+                      class="productItem text-white"
+                      data-name="T12"
+                      data-s="M"
+                      data-price="69995"
+                      data-id="14"
+                      style="font-size: 15px"
+                    >
+                      ADD TO CART</a
+                    >
+                  </button>
+                  <br /><br />
+                </div>
+              </a>
+            </div>
+          </div>
+          <!-- sil15 -->
+          <div class="ProductCard col">
+            <div class="container h-100">
+              <img src="./shirts/T12.png" class="Productimg" />
+              <br /><br />
+              <a href="#" class="text-black">
+                <h5 class="-title" style="font-weight: 700">
+                  Believe there is Good in the World
+                </h5>
+                <h6 class="subtitle">"Large"</h6>
+                <p class="text-danger">PHP 699.95</p>
+                <div class="star">
+                  <i class="fa fa-star checked"></i>
+                  <i class="fa fa-star checked"></i>
+                  <i class="fa fa-star checked"></i>
+                  <i class="fa fa-star checked"></i>
+                  <i class="fa fa-star-half-o"></i>
+                </div>
+                <br />
+                <div class="button text-center">
+                  <button type="button" class="btn bg-black">
+                    <a
+                      href="#"
+                      class="productItem text-white"
+                      data-name="T12"
+                      data-s="L"
+                      data-price="69995"
+                      data-id="15"
+                      style="font-size: 15px"
+                    >
+                      ADD TO CART</a
+                    >
+                  </button>
+                  <br /><br />
+                </div>
+              </a>
+            </div>
+          </div>
+          <!-- sil16-->
+          <div class="ProductCard col">
+            <div class="container h-100">
+              <img src="./shirts/T12.png" class="Productimg" />
+              <br /><br />
+              <a href="#" class="text-black">
+                <h5 class="-title" style="font-weight: 700">
+                  Believe there is Good in the World
+                </h5>
+                <h6 class="subtitle">"Extra Large"</h6>
+                <p class="text-danger">PHP 699.95</p>
+                <div class="star">
+                  <i class="fa fa-star checked"></i>
+                  <i class="fa fa-star checked"></i>
+                  <i class="fa fa-star checked"></i>
+                  <i class="fa fa-star checked"></i>
+                  <i class="fa fa-star-half-o"></i>
+                </div>
+                <br />
+                <div class="button text-center">
+                  <button type="button" class="btn bg-black">
+                    <a
+                      href="#"
+                      class="productItem text-white"
+                      data-name="T12"
+                      data-s="XL"
+                      data-price="69995"
+                      data-id="16"
+                      style="font-size: 15px"
+                    >
+                      ADD TO CART</a
+                    >
+                  </button>
+                  <br /><br />
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container p-5">
+        <nav aria-label="page text-black p-5">
+          <ul class="pagination justify-content-center">
+            <li class="page-item">
+              <a href="product2.html" class="page-link text-black">Previous</a>
+            </li>
+            <li class="page-item">
+              <a href="product.html" class="page-link text-black">1</a>
+            </li>
+            <li class="page-item">
+              <a href="product2.html" class="page-link text-black">2</a>
+            </li>
+            <li class="page-item disabled">
+              <a href="product3.html" class="page-link text-black">3</a>
+            </li>
+            <li class="page-item disabled">
+              <a href="#" class="page-link text-black">Next</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+    <br /><br />
+    <div class="container text-center">
+      <h3>SILAKBO RATINGS</h3>
+      <div class="star">
+        <i class="fa fa-star checked"></i>
+        <i class="fa fa-star checked"></i>
+        <i class="fa fa-star checked"></i>
+        <i class="fa fa-star checked"></i>
+        <i class="fa fa-star-half-o"></i>
+      </div>
+      <p>4.9</p>
+    </div>
+    <div class="container">
+      <h3 class="text-center">SEND FEEDBACK</h3>
+      <form class="row justify-content-center">
+        <div class="col-lg-4 col-sm-4">
+          <label for="name">Name (Required)</label>
+          <input
+            type="text"
+            class="form-control"
+            id="name"
+            placeholder="Your name"
+            required
+          />
+        </div>
+        <div class="col-lg-4 col-sm-4 m">
+          <label for="email">Email (Required)</label>
+          <input
+            type="email"
+            class="form-control"
+            id="email"
+            placeholder="Your email"
+            required
+          />
+        </div>
+        <div class="col-lg-8 col-sm-8 p1">
+          <label for="feed">Message</label>
+          <textarea
+            class="form-control"
+            id="feed"
+            cols="60"
+            rows="5"
+          ></textarea>
+        </div>
+      </form>
+      <div class="container p-3 text-center">
+        <label for="feedback"></label>
+        <button class="btn btn-dark">
+          <a href="" class="text-white">SEND FEEDBACK</a>
+        </button>
+      </div>
+    </div>
+    <br /><br /><br />
+    <div class="container text-center">
+      <h1>CUSTOMER REVIEW</h1>
+      <br />
+    </div>
+    <div class="container shadow-lg" style="border-radius: 15px">
+      <div id="carousels" class="carousel slide">
+        <div class="carousel-indicators">
+          <button
+            type="button"
+            data-bs-target="#carousels"
+            data-bs-slide-to="0"
+            class="active"
+            aria-current="true"
+            aria-label="Slide 1"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carousels"
+            data-bs-slide-to="1"
+            aria-label="Slide 2"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carousels"
+            data-bs-slide-to="2"
+            aria-label="Slide 3"
+          ></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="imgBox">
+              <img src="image/profile1.png" alt="" />
+            </div>
+            <div class="carousel-caption p-2">
+              <h3>Camille Anne</h3>
+              <p>
+                Having family, friends, and being a student has very much helped
+                me to accept my mental illness. Knowing that hope is the
+                “cornerstone of recovery,” and believing you can have success
+                with your life is critical. Your successes and dreams take on
+                many different directions to arrive at your destination. Not
+                giving up in life has been a positive thing for me. It has
+                helped me to make a lot of progress in my life.
+              </p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="imgBox">
+              <img src="image/profile2.png" alt="" />
+            </div>
+            <div class="carousel-caption p-2">
+              <h3>Gustavo Alonzo </h3>
+              <p>
+                Having acceptance of my mental illness means taking charge of my
+                life and moving forward. This has played a big part in my
+                recovery. I started to have acceptance of my mental illness
+                after giving myself credit for my strengths and weaknesses and
+                accepting my limitations. Also, believing that I have something
+                to offer in society and doing positive, healthy things in my
+                life.
+              </p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="imgBox">
+              <img src="image/profile3.png" alt="" />
+            </div>
+            <div class="carousel-caption p-2">
+              <h3>Ayesha Gray</h3>
+              <p>
+                I started to have more conversations with my parents about my
+                mental health and, little by little, I contributed to their
+                understanding of my experiences. I asked my partner, who was
+                also Chinese and who spent most of his formative years living
+                abroad, to teach me how to cook authentic Asian recipes that my
+                grandmother had made me as a kid. 
+              </p>
+            </div>
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carousels"
+          data-bs-slide="prev"
+        >
+          <a class="text-black"><i class="fas fa-chevron-left"></i></a>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carousels"
+          data-bs-slide="next"
+        >
+          <a class="text-black"><i class="fas fa-chevron-right"></i></a>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </div>
+    <br /><br /><br />
+    <footer class="bg-dark text-white pt-5 p-4">
+      <div class="container text-center text-md-left">
+        <div class="row text-center text-md-left">
+          <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
+            <h5
+              class="text-uppercase mb-4 font-weight-bold text-light"
+              style="font-weight: 700"
+            >
+              SILAKBO APPAREL
+            </h5>
+            <p>
+              Often, because of misconceptions about mental health and mental
+              fitness, people often suffer in silence and their conditions go
+              untreated. Mental health awareness is an important social movement
+              to both improve understanding and increase access to healthcare.
+            </p>
+            <a
+              href="about.html"
+              class="text-white"
+              style="text-decoration: none"
+              >READ MORE>></a
+            >
+          </div>
+          <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
+            <h5
+              class="text-uppercase mb-4 font-weight-bold text-light"
+              style="font-weight: 700"
+            >
+              SITE LINKS
+            </h5>
+            <p>
+              <a href="index.html#sectionhome" class="text-white">HOME</a>
+            </p>
+            <p>
+              <a href="product.html" class="text-white">PRODUCT</a>
+            </p>
+            <p>
+              <a href="onsite.html" class="text-white">WHERE TO BUY</a>
+            </p>
+            <p>
+              <a href="contact.html" class="text-white">CONTACT US</a>
+            </p>
+            <p>
+              <a href="about.html" class="text-white">ABOUT US</a>
+            </p>
+          </div>
+          <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mt-3">
+            <h5
+              class="text-uppercase mb-4 font-weight-bold text-light"
+              style="font-weight: 700"
+            >
+              LANGUAGES
+            </h5>
+            <p>
+              <a href="#" class="text-white">ENGLISH</a>
+            </p>
+            <p>
+              <a href="#" class="text-white">ESPAÑOL</a>
+            </p>
+            <p>
+              <a href="#" class="text-white">TAGALOG</a>
+            </p>
+            <p>
+              <a href="#" class="text-white">JAPANESE</a>
+            </p>
+            <p>
+              <a href="#" class="text-white">DUTCH</a>
+            </p>
+          </div>
+          <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3">
+            <h5
+              class="text-uppercase mb-4 font-weight-bold text-light"
+              style="font-weight: 700"
+            >
+              CONTACTS
+            </h5>
+            <p>
+              <i class="fas fa-home mr-3 m-2"></i>0123, Calo Bay Laguna
+              Phillippines
+            </p>
+            <p>
+              <a href="contact.html" class="text-white"
+                ><i class="fas fa-envelope mr-3 m-2"></i
+                >silakboapprl@gmail.com</a
+              >
+            </p>
+            <p><i class="fas fa-phone mr-3 m-2"></i>+63 961 2058 240</p>
+            <p><i class="fas fa-print mr-3 m-2"></i>+04 599 434 211</p>
+            <p>
+              <a href=""><i class="fab fa-facebook m-3 text-white"></i></a>
+              <a href=""><i class="fab fa-instagram m-3 text-white"></i></a>
+              <a href=""><i class="fa fa-twitter m-3 text-white"></i></a>
+            </p>
+          </div>
+        </div>
+        <hr />
+        <div class="container-fluid text-center">
+          <p>Copyright © 2023. Silakbo Apparel. All Rights Reserved.</p>
+        </div>
+        <hr />
+      </div>
+    </footer>
+
+    <!------Modal-------->
+    <!-- Modals -->
+    <div
+      class="modal fade"
+      id="cart"
+      data-bs-backdrop="static"
+      tabindex="-1"
+      aria-hidden="true"
+      style="backdrop-filter: blur(5px)"
+    >
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button
+              type="button"
+              class="close btn fs-3"
+              data-bs-dismiss="modal"
+            >
+              &times;
+            </button>
+            <h4 class="modal-title">Silakbo Cart</h4>
+          </div>
+          <div class="modal-body">
+            <table class="table table-hover">
+              <thead class="thead-inverse">
+                <tr>
+                  <th>Remove</th>
+                  <th>Qty</th>
+                  <th>Item Name</th>
+                  <th>Cost</th>
+                  <th class="text-xs-right">Subtotal</th>
+                </tr>
+              </thead>
+              <tbody id="output"></tbody>
+            </table>
+          </div>
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="btn btn-outline-dark"
+              data-bs-dismiss="modal"
+            >
+              Continue</button
+            ><a href="checkout.html" class="btn btn-dark"
+              >Proceed to checkout</a
+            >
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+      crossorigin="anonymous"
+    ></script>
+    <script>
+      var shopcart = [];
+      $(document).ready(function () {
+        outputCart();
+
+        $("#output").on("click", ".remove-item", function () {
+          var itemToDelete = $(".remove-item").index(this);
+          shopcart.splice(itemToDelete, 1);
+          sessionStorage["sca"] = JSON.stringify(shopcart);
+          outputCart();
+        });
+
+        $(".productItem").click(function (e) {
+          e.preventDefault();
+          var iteminfo = $(this.dataset)[0];
+          iteminfo.qty = 1;
+          var itemincart = false;
+          $.each(shopcart, function (index, value) {
+            //console.log(index + '  ' + value.id);
+            if (value.id == iteminfo.id) {
+              value.qty = parseInt(value.qty) + parseInt(iteminfo.qty);
+              itemincart = true;
+            }
+          });
+          if (!itemincart) {
+            shopcart.push(iteminfo);
+          }
+          sessionStorage["sca"] = JSON.stringify(shopcart);
+          outputCart();
+          ///
+        });
+
+        function outputCart() {
+          if (sessionStorage["sca"] != null) {
+            shopcart = JSON.parse(sessionStorage["sca"].toString());
+            $("#checkoutdiv").show();
+          }
+
+          var holderHTML = "";
+          var total = 0;
+          var itemCnt = 0;
+
+          $.each(shopcart, function (index, value) {
+            var stotal = value.qty * value.price;
+            total += stotal;
+            itemCnt += parseInt(value.qty);
+            holderHTML +=
+              '<tr><td><span class="btn btn-outline-danger remove-item">x</span></td><td>' +
+              value.qty +
+              "</td><td>#" +
+              value.id +
+              " " +
+              value.name +
+              "(" +
+              value.s +
+              ")</td><td> " +
+              formatMoney(value.price) +
+              ' </td><td class="text-xs-right"> ' +
+              formatMoney(stotal) +
+              "</td></tr>";
+          });
+          holderHTML +=
+            '<tr><td colspan="4" class="text-xs-right">Total</td><td class="text-xs-right">' +
+            formatMoney(total) +
+            "</td></tr>";
+
+          $("#output").html(holderHTML);
+          $(".total").html(formatMoney(total));
+          $(".items").html(itemCnt);
+        }
+
+        function formatMoney(n) {
+          return (n / 100).toFixed(2);
+        }
+      });
+    </script>
+  </body>
+</html>
